@@ -1,0 +1,16 @@
+{
+  "name": "spaproject",
+  "version": "1.0.0",
+  "description": "Acquire Logos is a single webApplication that accepts data, processes it and retrieves information about the word search. Example if u search for the word Apple it request the data from the server. Which returns the processed data .",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

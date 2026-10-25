@@ -1,0 +1,207 @@
+:root {
+    --primary-color: #03045E;
+    --secondary-color: #F3F6FF;
+    --tertiary-color: #f59E0B;
+    --neutral-color: #111827;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+
+}
+
+.header {
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+    .header__logo {
+        font-size: 40px;
+        font-family: "Iosevka Charon Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+        color: #03045E;
+
+
+    }
+}
+
+#know{
+    color: #f59E0B;
+}
+
+
+.main {
+
+    
+
+    .main__searchbar {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+
+        .searchbar-container{
+            display: flex;
+            width: 90%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        #searchbar{
+            flex: 1;
+            min-width: 0;
+            border: none;
+            outline: none;
+            padding: 10px;
+        }
+
+        #buttoni{
+            background-color: var(--tertiary-color);
+            color: var(--neutral-color);
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        
+
+        }
+
+        h2 {
+            font-family: "Iosevka Charon Mono", monospace;
+            font-weight: 300;
+            font-style: normal;
+            margin-bottom: 30px;
+        }
+
+       
+
+
+          
+
+           
+
+      
+
+
+    }
+
+       
+    .main__box {
+
+        margin-left: 50px;
+
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+        .main__box-1 {
+            margin-top: 50px;
+            width: 60%;
+            height: 450px;
+            border-radius: 10px;
+            background-color: #F3F6FF;
+
+
+
+        }
+
+        .main__box-2 {
+
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            width: 30%;
+            gap: 50px;
+            height: 450px;
+
+
+            .boxi-1 {
+                background-image: url(./assests/Images/_.jpeg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 50%;
+                border-radius: 10px;
+                background-color: #F3F6FF;
+
+
+            }
+
+            .boxi-2 {
+                height: 50%;
+                border-radius: 10px;
+                background-color: #F3F6FF;
+                border-bottom: #03045E;
+                padding-bottom: 10px;
+
+                h2{
+                    text-align: center;
+                    margin-top: 20px;
+                }
+            }
+
+            #fav-words li{
+                list-style-type: none;
+                text-align: center;
+            }
+            
+
+        }
+
+
+    }
+
+
+
+@media (max-width: 600px) {
+    .header {
+
+        .header__logo {
+            text-align: center;
+        }
+    }
+
+    .main {
+        margin-right: 50px;
+
+        .main__box {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .main__box-1 {
+                width: 100%;
+
+
+
+            }
+
+            .main__box-2 {
+                width: 100%;
+            }
+
+        }
+
+
+
+    }
+}
+
+
+#word-title{
+    color: #03045E;
+    font-weight: 800;
+    text-transform: capitalize;
+    border-bottom: 3px solid #f59E0B;
+    padding-bottom: 8px;
+}
